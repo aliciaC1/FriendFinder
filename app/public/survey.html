@@ -9,6 +9,8 @@
      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR|Quicksand:300|Work+Sans:100,200" rel="stylesheet">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
      <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="./style.css">
@@ -20,7 +22,7 @@
     <main>
         <div class = "container">
             <form>
-                <div class = "row">
+                <div class = "row" data-aos="fade-up" data-aos-duration="3000">
                     <blockquote class = "questions">
                         <h6>
                             Question 1 / Your mind is always buzzing with unexplored ideas and plans.
@@ -39,7 +41,7 @@
                     </blockquote>
                 </div>
                 
-                <div class = "row">
+                <div class = "row" data-aos="fade-up" data-aos-duration="3000">
                     <blockquote class = "questions">
                         <h6>
                             Question 2 / Generally speaking, you rely more on your experience than your imagination.
@@ -58,7 +60,7 @@
                     </blockquote>
                 </div>
 
-                <div class = "row">
+                <div class = "row" data-aos="fade-up" data-aos-duration="3000">
                         <blockquote class = "questions">
                             <h6>
                                 Question 3 / You find it easy to stay relaxed and focused even when there is some pressure.
@@ -77,7 +79,7 @@
                         </blockquote>
                     </div>
                     
-                    <div class = "row">
+                    <div class = "row" data-aos="fade-up" data-aos-duration="3000">
                         <blockquote class = "questions">
                             <h6>
                                 Question 4 / You rarely do something just out of sheer curiosity.
@@ -96,7 +98,7 @@
                         </blockquote>
                     </div>
 
-                <div class = "row">
+                <div class = "row" data-aos="fade-up" data-aos-duration="3000">
                     <blockquote class = "questions">
                         <h6>
                             Question 4 / People can rarely upset you.
@@ -115,7 +117,7 @@
                     </blockquote>
                 </div>
                 
-                <div class = "row">
+                <div class = "row" data-aos="fade-up" data-aos-duration="3000">
                     <blockquote class = "questions">
                         <h6>
                             Question 6 / It is often difficult for you to relate to other people’s feelings.
@@ -135,7 +137,7 @@
                     </blockquote>
                 </div>
 
-                <div class = "row">
+                <div class = "row" data-aos="fade-up" data-aos-duration="3000">
                     <blockquote class = "questions">
                         <h6>
                             Question 7 / In a discussion, truth should be more important than people’s sensitivities.
@@ -154,7 +156,7 @@
                     </blockquote>
                 </div>
                 
-                <div class = "row">
+                <div class = "row" data-aos="fade-up" data-aos-duration="3000">
                     <blockquote class = "questions">
                         <h6>
                             Question 8 / You rarely get carried away by fantasies and ideas.
@@ -173,7 +175,7 @@
                     </blockquote>
                 </div>
 
-                <div class = "row">
+                <div class = "row" data-aos="fade-up" data-aos-duration="3000">
                     <blockquote class = "questions">
                         <h6>
                             Question 9 / You think that everyone’s views should be respected regardless of whether they are supported by facts or not.
@@ -192,7 +194,7 @@
                     </blockquote>
                 </div>
                 
-                <div class = "row">
+                <div class = "row" data-aos="fade-up" data-aos-duration="3000">
                     <blockquote class = "questions">
                         <h6>
                             Question 10 / You feel more energetic after spending time with a group of people.
@@ -211,8 +213,10 @@
                     </blockquote>
                 </div>
                 </form>
+      </div>
+      <div class = "row">
                 <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                    <i class="material-icons right">send</i>
+                    <i class="material-icons "></i>
                 </button>     
             </div>
                     
@@ -222,14 +226,14 @@
     </main>
 
     <footer class="page-footer">
-        <div class="footer-copyright">
-            <div class="container">
-              <div class = "right">© 2018 Copyright Text </div> 
-              <a class="grey-text text-lighten-4 " href="/api/friends">API Friend List</a> 
-             
-             | <a class="grey-text text-lighten-4 " href="#!">Github Repo</a> 
+            <div class="footer-copyright">
+                    <div class="container">
+                      <div class = "black-text text-black right">© 2018 Copyright AC </div> 
+                      <a class="black-text text-black" href="/api/friends">API Friend List |</a> 
+                      
+                     <a class="black-text text-black " href="#!">Github Repo</a> 
+                    </div>
             </div>
-        </div>
      </footer>
  <!--Import jQuery before materialize.js-->
  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -242,6 +246,10 @@
                 $('select').material_select();  
 
 });</script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html>
