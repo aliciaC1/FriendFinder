@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Compiled and minified CSS -->
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR|Quicksand:300|Work+Sans:100,200" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="./style.css">
     <title>Friend Finder</title>
@@ -16,23 +19,195 @@
 
     <main>
         <div class = "container">
-         <blockquote>
-            This is an example quotation that uses the blockquote tag.
-         </blockquote>
-    
-            <div class="row">
-                <form class="col s12" action ="#">
-                <div class="row">
-                    <i class="material-icons prefix">account_circle</i>
-                    <input id="icon_prefix" type="text" class="validate">
-                    <label for="icon_prefix">First Name</label>
-                </div>
+            <form>
                 <div class = "row">
-                    <blockquote>
-                    <h6>Question 1: </h6>
-                    <p class="range-field">
-                    <input type="range" id="test5" min="1" max="6" />
-                    </p>
+                    <blockquote class = "questions">
+                        <h6>
+                            Question 1 / Your mind is always buzzing with unexplored ideas and plans.
+                        </h6>
+                        <div class="input-field">
+                         <select>
+                            <option value="" disabled selected>  option</option>
+                            <option value="1">1 / strongly disagree</option>
+                            <option value="2">2 / disagree</option>
+                            <option value="3">3 / neutral</option>
+                            <option value="4">4 / agree</option>
+                            <option value="5">5 / strongly agree</option>
+                          </select>        
+                        </div>
+                        <br>
+                    </blockquote>
+                </div>
+                
+                <div class = "row">
+                    <blockquote class = "questions">
+                        <h6>
+                            Question 2 / Generally speaking, you rely more on your experience than your imagination.
+                        </h6>
+                        <div class="input-field">
+                         <select>
+                            <option value="" disabled selected>  option</option>
+                            <option value="1">1 / strongly disagree</option>
+                            <option value="2">2 / disagree</option>
+                            <option value="3">3 / neutral</option>
+                            <option value="4">4 / agree</option>
+                            <option value="5">5 / strongly agree</option>
+                          </select>        
+                        </div>
+                        <br>
+                    </blockquote>
+                </div>
+
+                <div class = "row">
+                        <blockquote class = "questions">
+                            <h6>
+                                Question 3 / You find it easy to stay relaxed and focused even when there is some pressure.
+                            </h6>
+                            <div class="input-field">
+                             <select>
+                                <option value="" disabled selected>  option</option>
+                                <option value="1">1 / strongly disagree</option>
+                                <option value="2">2 / disagree</option>
+                                <option value="3">3 / neutral</option>
+                                <option value="4">4 / agree</option>
+                                <option value="5">5 / strongly agree</option>
+                              </select>        
+                            </div>
+                            <br>
+                        </blockquote>
+                    </div>
+                    
+                    <div class = "row">
+                        <blockquote class = "questions">
+                            <h6>
+                                Question 4 / You rarely do something just out of sheer curiosity.
+                            </h6>
+                            <div class="input-field">
+                             <select>
+                                <option value="" disabled selected>  option</option>
+                                <option value="1">1 / strongly disagree</option>
+                                <option value="2">2 / disagree</option>
+                                <option value="3">3 / neutral</option>
+                                <option value="4">4 / agree</option>
+                                <option value="5">5 / strongly agree</option>
+                              </select>        
+                            </div>
+                            <br>
+                        </blockquote>
+                    </div>
+
+                <div class = "row">
+                    <blockquote class = "questions">
+                        <h6>
+                            Question 4 / People can rarely upset you.
+                        </h6>
+                        <div class="input-field">
+                         <select>
+                            <option value="" disabled selected>  option</option>
+                            <option value="1">1 / strongly disagree</option>
+                            <option value="2">2 / disagree</option>
+                            <option value="3">3 / neutral</option>
+                            <option value="4">4 / agree</option>
+                            <option value="5">5 / strongly agree</option>
+                          </select>        
+                        </div>
+                        <br>
+                    </blockquote>
+                </div>
+                
+                <div class = "row">
+                    <blockquote class = "questions">
+                        <h6>
+                            Question 6 / It is often difficult for you to relate to other people’s feelings.
+
+                        </h6>
+                        <div class="input-field">
+                         <select>
+                            <option value="" disabled selected>  option</option>
+                            <option value="1">1 / strongly disagree</option>
+                            <option value="2">2 / disagree</option>
+                            <option value="3">3 / neutral</option>
+                            <option value="4">4 / agree</option>
+                            <option value="5">5 / strongly agree</option>
+                          </select>        
+                        </div>
+                        <br>
+                    </blockquote>
+                </div>
+
+                <div class = "row">
+                    <blockquote class = "questions">
+                        <h6>
+                            Question 7 / In a discussion, truth should be more important than people’s sensitivities.
+                        </h6>
+                        <div class="input-field">
+                         <select>
+                            <option value="" disabled selected>  option</option>
+                            <option value="1">1 / strongly disagree</option>
+                            <option value="2">2 / disagree</option>
+                            <option value="3">3 / neutral</option>
+                            <option value="4">4 / agree</option>
+                            <option value="5">5 / strongly agree</option>
+                          </select>        
+                        </div>
+                        <br>
+                    </blockquote>
+                </div>
+                
+                <div class = "row">
+                    <blockquote class = "questions">
+                        <h6>
+                            Question 8 / You rarely get carried away by fantasies and ideas.
+                        </h6>
+                        <div class="input-field">
+                         <select>
+                            <option value="" disabled selected>  option</option>
+                            <option value="1">1 / strongly disagree</option>
+                            <option value="2">2 / disagree</option>
+                            <option value="3">3 / neutral</option>
+                            <option value="4">4 / agree</option>
+                            <option value="5">5 / strongly agree</option>
+                          </select>        
+                        </div>
+                        <br>
+                    </blockquote>
+                </div>
+
+                <div class = "row">
+                    <blockquote class = "questions">
+                        <h6>
+                            Question 9 / You think that everyone’s views should be respected regardless of whether they are supported by facts or not.
+                        </h6>
+                        <div class="input-field">
+                         <select>
+                            <option value="" disabled selected>  option</option>
+                            <option value="1">1 / strongly disagree</option>
+                            <option value="2">2 / disagree</option>
+                            <option value="3">3 / neutral</option>
+                            <option value="4">4 / agree</option>
+                            <option value="5">5 / strongly agree</option>
+                          </select>        
+                        </div>
+                        <br>
+                    </blockquote>
+                </div>
+                
+                <div class = "row">
+                    <blockquote class = "questions">
+                        <h6>
+                            Question 10 / You feel more energetic after spending time with a group of people.
+                        </h6>
+                        <div class="input-field">
+                         <select>
+                            <option value="" disabled selected>  option</option>
+                            <option value="1">1 / strongly disagree</option>
+                            <option value="2">2 / disagree</option>
+                            <option value="3">3 / neutral</option>
+                            <option value="4">4 / agree</option>
+                            <option value="5">5 / strongly agree</option>
+                          </select>        
+                        </div>
+                        <br>
                     </blockquote>
                 </div>
                 </form>
@@ -41,16 +216,18 @@
                 </button>     
             </div>
                     
-        </div>                  
+        </div>    
+        
+        
     </main>
 
     <footer class="page-footer">
         <div class="footer-copyright">
             <div class="container">
-              © 2014 Copyright Text
-              <a class="grey-text text-lighten-4 right" href="/api/friends">API Friend List</a> 
+              <div class = "right">© 2018 Copyright Text </div> 
+              <a class="grey-text text-lighten-4 " href="/api/friends">API Friend List</a> 
              
-             | <a class="grey-text text-lighten-4 right" href="#!">Github Repo</a> 
+             | <a class="grey-text text-lighten-4 " href="#!">Github Repo</a> 
             </div>
         </div>
      </footer>
@@ -60,6 +237,11 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
          
     <script> M.AutoInit();</script>
+    <script>       $(document).ready(
+            function() {
+                $('select').material_select();  
+
+});</script>
 
 </body>
 </html>

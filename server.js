@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 var data = {
 	entries: [],
-	friendsList: [],
+	friendsList: [], 
 };
 
 
