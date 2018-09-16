@@ -1,7 +1,7 @@
 var array = [
     {
       "name":"Cara",
-      "photo":"./public/assets/imgs/cara.png",
+      "photo":"http://oi67.tinypic.com/33n868j.jpg",
       "scores":[
           1,
           1,
@@ -16,7 +16,7 @@ var array = [
         ]
     },{
         "name":"Peter",
-        "photo":"./public/assets/imgs/peter.png",
+        "photo":"http://oi64.tinypic.com/iozqfb.jpg",
         "scores":[
             2,
             2,
@@ -31,7 +31,7 @@ var array = [
           ]
       }, {
         "name":"Amélie",
-        "photo":"./public/assets/imgs/amelie.png",
+        "photo":"http://oi67.tinypic.com/2n1flhs.jpg",
         "scores":[
             3,
             3,
@@ -46,7 +46,7 @@ var array = [
           ]
       }, {
         "name":"Alex",
-        "photo":"./public/assets/imgs/alex.png",
+        "photo":"http://oi66.tinypic.com/2lwoi7q.jpg",
         "scores":[
             4,
             4,
@@ -61,7 +61,7 @@ var array = [
           ]
       }, {
         "name":"Kevin",
-        "photo":"./public/assets/imgs/kevin.png",
+        "photo":"http://oi65.tinypic.com/2evc0nc.jpg",
         "scores":[
             5,
             5,
@@ -76,7 +76,7 @@ var array = [
           ]
       }, {
         "name":"Tracy",
-        "photo":"./public/assets/imgs/tracy.png",
+        "photo":"http://oi65.tinypic.com/bingh.jpg",
         "scores":[
             1,
             1,
@@ -91,7 +91,7 @@ var array = [
           ]
       }, {
         "name":"Suri",
-        "photo":"./public/assets/imgs/suri.png",
+        "photo":"http://oi64.tinypic.com/33vca41.jpg",
         "scores":[
             5,
             5,
@@ -106,7 +106,7 @@ var array = [
           ]
       }, {
         "name":"Eric",
-        "photo":"./public/assets/imgs/eric.png",
+        "photo":"http://oi63.tinypic.com/1zvahdc.jpg",
         "scores":[
             3,
             3,
@@ -121,7 +121,7 @@ var array = [
           ]
       }, {
         "name":"Maxwell",
-        "photo":"./public/assets/imgs/maxwell.png",
+        "photo":"http://oi67.tinypic.com/9i8fp5.jpg",
         "scores":[
             2,
             2,
@@ -136,7 +136,7 @@ var array = [
           ]
       }, {
         "name":"Daniel",
-        "photo":"./public/assets/imgs/daniel.png",
+        "photo":"http://oi64.tinypic.com/bhk4cz.jpg",
         "scores":[
             5,
             5,
