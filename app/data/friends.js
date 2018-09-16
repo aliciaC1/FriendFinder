@@ -7,6 +7,11 @@ var array = [
           1,
           1,
           1,
+          1,
+          1,
+          1,
+          1,
+          1,
           1
         ]
     },{
@@ -18,11 +23,21 @@ var array = [
             2,
             2,
             2,
+            2,
+            2,
+            2,
+            2,
+            2
           ]
       }, {
         "name":"Amélie",
         "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
         "scores":[
+            3,
+            3,
+            3,
+            3,
+            3, 
             3,
             3,
             3,
@@ -37,6 +52,11 @@ var array = [
             4,
             4,
             4,
+            4, 
+            4,
+            4,
+            4,
+            4,
             4
           ]
       }, {
@@ -47,62 +67,87 @@ var array = [
             5,
             5,
             5,
+            5, 
+            5,
+            5,
+            5,
+            5,
             5
           ]
       }, {
         "name":"Tracy",
         "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
         "scores":[
-            6,
-            6,
-            6,
-            6,
-            6
+            1,
+            1,
+            1,
+            1,
+            1, 
+            2,
+            2,
+            2,
+            2,
+            2
           ]
       }, {
         "name":"Suri",
         "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
         "scores":[
-            7,
-            7,
-            7,
-            7,
-            7,
-            7,
-            7,
-            7,
-            7,
-            7
+            5,
+            5,
+            5,
+            5,
+            5,
+            4,
+            4,
+            4,
+            4,
+            4
           ]
       }, {
         "name":"Eric",
         "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
         "scores":[
-            8,
-            8,
-            8,
-            8,
-            8
+            3,
+            3,
+            3,
+            3,
+            3, 
+            4,
+            4,
+            4,
+            4,
+            4
           ]
       }, {
         "name":"Maxwell",
         "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
         "scores":[
-            9,
-            9,
-            9,
-            9,
-            9
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3
           ]
       }, {
         "name":"Daniel",
         "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
         "scores":[
-            10,
-            10,
-            10,
-            10,
-            10
+            5,
+            5,
+            5,
+            5,
+            5,
+            1,
+            1,
+            1,
+            1,
+            1
           ]
       }
     ]

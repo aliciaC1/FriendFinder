@@ -10,43 +10,53 @@ var PORT = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, './app/public')));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-var data = {
-	entries: [],
-	friendsList: [], 
-};
+app.use(bodyParser.text());
 
-
-
-
-// Routes
-// =============================================================
+// Add the application routes
 require(path.join(__dirname, './app/routing/apiRoutes'))(app);
 require(path.join(__dirname, './app/routing/htmlRoutes'))(app);
 
-// Basic route that sends the user first to the AJAX Page
-app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "home.html"));
-  });
+// Start listening on PORT
+app.listen(PORT, function() {
+  console.log('Friend Finder app is listening on PORT: ' + PORT);
+});
+// var data = {
+// 	entries: [],
+// 	friendsList: [], 
+// };
 
-  app.get("/survey", function(req, res) {
-    res.sendFile(path.join(__dirname, "survey.html"));
-  });
 
- // Displays all new entries
- app.get("/api/entries", function(req, res) {
-    return res.json(entries);
-  });
 
- // Displays all new reservations
- app.get("/api/friends", function(req, res) {
-    return res.json(data.friendsList);
-  });
+
+// // Routes
+// // =============================================================
+// require(path.join(__dirname, './app/routing/apiRoutes'))(app);
+// require(path.join(__dirname, './app/routing/htmlRoutes'))(app);
+
+// // Basic route that sends the user first to the AJAX Page
+// app.get("/", function(req, res) {
+//     res.sendFile(path.join(__dirname, "home.html"));
+//   });
+
+//   app.get("/survey", function(req, res) {
+//     res.sendFile(path.join(__dirname, "survey.html"));
+//   });
+
+//  // Displays all new entries
+//  app.get("/api/entries", function(req, res) {
+//     return res.json(entries);
+//   });
+
+//  // Displays all new reservations
+//  app.get("/api/friends", function(req, res) {
+//     return res.json(data.friendsList);
+//   });
   
 
 
-    // Starts the server to begin listening
-// =============================================================
-app.listen(PORT, function() {
-    console.log("App listening on PORT " + PORT);
-  });
+//     // Starts the server to begin listening
+// // =============================================================
+// app.listen(PORT, function() {
+//     console.log("App listening on PORT " + PORT);
+//   });
   

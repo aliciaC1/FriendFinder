@@ -14,11 +14,8 @@ body {
     margin:auto;
     margin-top: 10%;
     margin-bottom: 10%;
-    width:100%;
-
-   
+    width:100%;  
   }
-
 
  h6{
     font-family: monospace;
@@ -57,34 +54,17 @@ body {
 
 
 
-  .noUi-target {
-    padding: 0 17px;
-}
-.noUi-base:before,
-.noUi-base:after {
-    width: 17px;
-    content: "";
-    position: absolute;
-    top: 0;
-    height: 100%;
-    display: block;
-}
-.noUi-base:before {
-    left: -17px;
-}
-.noUi-base:after {
-    left: 100%;
-}
 
 input{
     font-size: 2rem;
 }
 input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:not(.browser-default), input[type=text].valid:not(.browser-default):focus, input[type=password].valid:not(.browser-default), input[type=password].valid:not(.browser-default):focus, input[type=email].valid:not(.browser-default), input[type=email].valid:not(.browser-default):focus, input[type=url].valid:not(.browser-default), input[type=url].valid:not(.browser-default):focus, input[type=time].valid:not(.browser-default), input[type=time].valid:not(.browser-default):focus, input[type=date].valid:not(.browser-default), input[type=date].valid:not(.browser-default):focus, input[type=datetime].valid:not(.browser-default), input[type=datetime].valid:not(.browser-default):focus, input[type=datetime-local].valid:not(.browser-default), input[type=datetime-local].valid:not(.browser-default):focus, input[type=tel].valid:not(.browser-default), input[type=tel].valid:not(.browser-default):focus, input[type=number].valid:not(.browser-default), input[type=number].valid:not(.browser-default):focus, input[type=search].valid:not(.browser-default), input[type=search].valid:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid>input.select-dropdown {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid bisque;
     -webkit-box-shadow: 0 1px 0 0 #fffcfc;
     box-shadow: 0 1px 0 0 #ffffff;
-    background-color: bisque;
+    background-color: black;
     font-size: 2 rem;
+    color: bisque;
 }
 
 footer{
@@ -102,24 +82,24 @@ footer{
 .btn{
         background-color: white;
         color: black;
-        /* right: 100px; */
         float: right;
-        right: 297px;
+        text-align: center;
+        /* right: 297px; */
        
 }
 .btn:hover, .btn-large:hover {
     background-color: #000000;
 }
 .input-field{
-    background-color: bisque;
-    color: black;
+    background-color: black;
+    color: bisque;
     font-size: 2rem;
     height: 3.5rem;
     margin: 5px;
 }
 
 .select-dropdown{
-    color: black;
+    color: bisque;
 }
 
 
@@ -151,9 +131,10 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 }
 
 .profile-pic {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 160px;
+    max-height: 160px;
     display: block;
+    margin: -10%;
 }
 
 .file-upload {
@@ -164,7 +145,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
     overflow: hidden;
     width: 148px;
     height: 148px;
-    border: 8px solid rgba(255, 15, 15, 0.7);
+    border: 8px solid rgba(16, 11, 15);
     position: absolute;
     /* top: 72px; */
 }
@@ -195,9 +176,23 @@ img {
 blockquote {
     margin: 20px 0;
     padding-left: 1.5rem;
-    border-left: 5px solid #ecff00;
+    border-left: 5px solid #b3d1d2;
 }
 
 a{
     color: black;
+}
+
+.infosection {
+    /* text-align: center; */
+    margin-bottom: 20px;
+    margin-left: 1;
+    border: blue 1px solid;
+    padding: 104px;
+}
+
+.questionaire{
+    margin-top: 100px;
+    width: 90%;
+    margin-left: 60px;
 }
