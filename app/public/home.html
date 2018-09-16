@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR|Quicksand:300|Work+Sans:100,200" rel="stylesheet">
     <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="./assets/style.css">
     <title>Friend Finder</title>
@@ -24,8 +25,11 @@
             Friend Finder. <br>
               Let us know a bit about you to help find you a great friend match. 
             </div>
-            
+            <div data-aos="flip-up">
+            <img src="./assets/imgs/friends.png">
             <a href="/survey" class="waves-effect waves-light btn" id="submit"><i class="material-icons right">fast_forward</i></a>
+            </div>
+            
   
         </div>                  
     </main>
@@ -54,20 +58,10 @@
                 $('select').material_select();  
 
 });
-
-
-
- $('#submit').on('click', function(event) {
-			event.preventDefault();
-			// Gather user inputs
-			var userInput = {
-				name: $('#name').val().trim(),
-                photo: $('#photo').val().trim()
-            };
-        });
-
-});
 </script>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

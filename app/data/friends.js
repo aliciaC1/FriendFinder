@@ -1,7 +1,7 @@
 var array = [
     {
       "name":"Cara",
-      "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "photo":"./public/assets/imgs/cara.png",
       "scores":[
           1,
           1,
@@ -16,7 +16,7 @@ var array = [
         ]
     },{
         "name":"Peter",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"./public/assets/imgs/peter.png",
         "scores":[
             2,
             2,
@@ -31,7 +31,7 @@ var array = [
           ]
       }, {
         "name":"Amélie",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"./public/assets/imgs/amelie.png",
         "scores":[
             3,
             3,
@@ -46,7 +46,7 @@ var array = [
           ]
       }, {
         "name":"Alex",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"./public/assets/imgs/alex.png",
         "scores":[
             4,
             4,
@@ -61,7 +61,7 @@ var array = [
           ]
       }, {
         "name":"Kevin",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"./public/assets/imgs/kevin.png",
         "scores":[
             5,
             5,
@@ -76,7 +76,7 @@ var array = [
           ]
       }, {
         "name":"Tracy",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"./public/assets/imgs/tracy.png",
         "scores":[
             1,
             1,
@@ -91,7 +91,7 @@ var array = [
           ]
       }, {
         "name":"Suri",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"./public/assets/imgs/suri.png",
         "scores":[
             5,
             5,
@@ -106,7 +106,7 @@ var array = [
           ]
       }, {
         "name":"Eric",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"./public/assets/imgs/eric.png",
         "scores":[
             3,
             3,
@@ -121,7 +121,7 @@ var array = [
           ]
       }, {
         "name":"Maxwell",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"./public/assets/imgs/maxwell.png",
         "scores":[
             2,
             2,
@@ -136,7 +136,7 @@ var array = [
           ]
       }, {
         "name":"Daniel",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"./public/assets/imgs/daniel.png",
         "scores":[
             5,
             5,
