@@ -281,7 +281,7 @@
                       <div class = "black-text text-black right">© 2018 Copyright AC </div> 
                       <a class="black-text text-black" href="/api/friends">API Friend List |</a> 
                       
-                     <a class="black-text text-black " href="#!">Github Repo</a> 
+                     <a class="black-text text-black " href="https://github.com/aliciaC1/FriendFinder">Github Repo</a> 
                     </div>
             </div>
      </footer>
@@ -302,14 +302,14 @@
   </script>
 
 	<div id="modal1" class="modal">
-            <div class="modal-content">
+            <div class="modal-content center-align">
                 <h4>Your Closest Friend Match</h4>
                 <div class="divider"></div>
                 <h5 id="userMatch"></h5>
-                <img id="userMatchImage" class="materialboxed" width="650" src="">
+                <img id="userMatchImage" class="materialboxed" style= "margin: auto;" width="250" src="">
             </div>
             <div class="modal-footer">
-                <a href="/survey" class="modal-action modal-close waves-effect waves-green btn-flat">Find another Friend Match!</a>
+                <a href="/survey" class="modal-action modal-close waves-effect waves-black btn waves-effect waves-light">Find another Friend Match!</a>
             </div>
         </div>
     
@@ -345,7 +345,9 @@ $(".upload-button").on('click', function() {
                     inDuration: 300, // Transition in duration
                     outDuration: 200, // Transition out duration
                     startingTop: '4%', // Starting top style attribute
+                    width: '30%',
                     endingTop: '10%' // Ending top style attribute
+                
                 });
             });
             // Activate submit button
